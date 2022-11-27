@@ -1,13 +1,15 @@
+import Lif from "../utils/Lif";
+
 const Background = () => {
   return (
     <section>
       <h2>Packaging is a mess</h2>
       <ul>
-        <li className="fragment">package.json</li>
-        <li className="fragment">
+        <Lif>package.json</Lif>
+        <Lif>
           <strong>pip freeze</strong> is unmaintainable
-        </li>
-        <li className="fragment">Pipenv is weird</li>
+        </Lif>
+        <Lif>Pipenv is weird</Lif>
       </ul>
     </section>
   );
