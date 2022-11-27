@@ -1,7 +1,10 @@
 const Title = () => {
   return (
     <section>
-      <h2>Finding joy in poetry</h2>
+      <h2>
+        Finding joy in{" "}
+        <a href="https://github.com/python-poetry/poetry">poetry</a>
+      </h2>
     </section>
   );
 };
