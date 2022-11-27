@@ -6,6 +6,7 @@ import Solutions from "./Slides/04-Solutions";
 import MigrationGuide from "./Slides/05-MigrationGuide";
 import Credits from "./Slides/08-Credits";
 import Thanks from "./Slides/07-Thanks";
+import Docker from "./Slides/06-Docker";
 
 const SlidesContainer = () => {
   return (
@@ -16,6 +17,7 @@ const SlidesContainer = () => {
       <Background />
       <Solutions />
       <MigrationGuide />
+      <Docker />
       <Thanks />
       <Credits />
       <Agenda />

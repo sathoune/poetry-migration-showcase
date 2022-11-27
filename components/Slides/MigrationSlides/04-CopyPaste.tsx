@@ -1,7 +1,7 @@
 const CopyPaste = () => {
   return (
     <section>
-      <h2>Populating pyproject.toml</h2>
+      <h2>Populate pyproject.toml</h2>
       <pre>
         <code>pipx install pipenv</code>
         <code>pipx install pipenv-poetry-migrate</code>

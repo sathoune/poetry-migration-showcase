@@ -2,7 +2,7 @@ const Glory = () => {
   return (
     <section>
       <div className={"r-stack"}>
-        <h2>Well, now...</h2>
+        <h2>So now...</h2>
         <img
           className={"fragment"}
           src={"/images/prepare-for-glory.jpg"}
