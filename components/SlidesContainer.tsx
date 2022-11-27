@@ -3,9 +3,9 @@ import AboutMe from "./Slides/01-AboutMe";
 import Agenda from "./Slides/02-Agenda";
 import Background from "./Slides/03-Background";
 import Solutions from "./Slides/04-Solutions";
-import MigrationGuide from "./Slides/06-MigrationGuide";
-import Credits from "./Slides/09-Credits";
-import Thanks from "./Slides/08-Thanks";
+import MigrationGuide from "./Slides/05-MigrationGuide";
+import Credits from "./Slides/08-Credits";
+import Thanks from "./Slides/07-Thanks";
 
 const SlidesContainer = () => {
   return (
