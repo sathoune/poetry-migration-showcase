@@ -1,5 +1,5 @@
 import "../public/reveal.css";
-import "../public/theme/black.css";
+import "../public/theme/moon.css";
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 
