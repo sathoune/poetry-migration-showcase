@@ -1,18 +1,15 @@
+import Title from "./Benefits/0-Title";
+import NoManualLabour from "./Benefits/1-NoManualLabour";
+import OOOPackaging from "./Benefits/2-OOOPackaging";
+import PyprojectTOML from "./Benefits/3-PyprojectTOML";
+
 export const Benefits = () => {
   return (
     <section>
-      <section>
-        <h2>Benefits</h2>
-      </section>
-      <section>
-        <h2>No manual labour</h2>
-      </section>
-      <section>
-        <h2>OOO packaging</h2>
-      </section>
-      <section>
-        <h2>pyproject.toml</h2>
-      </section>
+      <Title />
+      <NoManualLabour />
+      <OOOPackaging />
+      <PyprojectTOML />
     </section>
   );
 };
