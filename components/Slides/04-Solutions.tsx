@@ -1,4 +1,4 @@
-const Solutinos = () => {
+const Solutions = () => {
   return (
     <section>
       <h2>Finding joy in poetry</h2>
@@ -6,4 +6,4 @@ const Solutinos = () => {
   );
 };
 
-export default Solutinos;
+export default Solutions;
