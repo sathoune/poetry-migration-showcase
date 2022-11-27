@@ -1,7 +1,7 @@
 const Title = () => {
   return (
     <section>
-      <h2>Benefits</h2>
+      <h2>Finding joy in poetry</h2>
     </section>
   );
 };
