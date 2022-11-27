@@ -4,8 +4,8 @@ import Agenda from "./Slides/02-Agenda";
 import Background from "./Slides/03-Background";
 import Solutions from "./Slides/04-Solutions";
 import MigrationGuide from "./Slides/06-MigrationGuide";
-import Credits from "./Slides/08-Credits";
-import Thanks from "./Slides/09-Thanks";
+import Credits from "./Slides/09-Credits";
+import Thanks from "./Slides/08-Thanks";
 
 const SlidesContainer = () => {
   return (
@@ -16,8 +16,8 @@ const SlidesContainer = () => {
       <Background />
       <Solutions />
       <MigrationGuide />
-      <Credits />
       <Thanks />
+      <Credits />
       <Agenda />
     </div>
   );
