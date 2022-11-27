@@ -2,6 +2,7 @@ const RinseAndRepeat = () => {
   return (
     <section>
       <h2>Rinse an repeat</h2>
+      <video data-autoplay={true} src={"/images/remove-uvloop.mov"} />
     </section>
   );
 };
