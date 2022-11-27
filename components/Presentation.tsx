@@ -1,8 +1,8 @@
 // @ts-ignore
 import Reveal from "reveal.js";
 import { useEffect } from "react";
-import Title from "./Slides/0-Title";
-import AboutMe from "./Slides/1-AboutMe";
+import Title from "./Slides/00-Title";
+import AboutMe from "./Slides/01-AboutMe";
 import SlidesContainer from "./SlidesContainer";
 
 const Presentation = () => {
