@@ -1,7 +1,11 @@
 const PoetryInstall = () => {
   return (
     <section>
-      <h2> Run `poetry install`</h2>
+      <h2>Install dependencies</h2>
+      <pre>
+        <code>poetry install</code>
+      </pre>
+      <img src={"/images/poetry-lock.png"} alt={"Show a new generated file."} />
     </section>
   );
 };
