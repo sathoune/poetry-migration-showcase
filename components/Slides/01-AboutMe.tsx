@@ -1,8 +1,14 @@
 const AboutMe = () => {
   return (
     <section>
-      <div>
-        <h2>About me</h2>
+      <h2>About me</h2>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "space-around",
+        }}
+      >
         <div>
           <h4>Find me</h4>
           <ul>
