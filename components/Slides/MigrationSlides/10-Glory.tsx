@@ -1,7 +1,14 @@
 const Glory = () => {
   return (
     <section>
-      <h2>Live with eternal glory</h2>
+      <div className={"r-stack"}>
+        <h2>Well, now...</h2>
+        <img
+          className={"fragment"}
+          src={"/images/prepare-for-glory.jpg"}
+          alt={"Glorious Leonidas."}
+        />
+      </div>
     </section>
   );
 };
