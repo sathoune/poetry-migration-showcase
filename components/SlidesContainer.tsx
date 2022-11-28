@@ -20,7 +20,6 @@ const SlidesContainer = () => {
       <Docker />
       <Thanks />
       <Credits />
-      <Agenda />
     </div>
   );
 };

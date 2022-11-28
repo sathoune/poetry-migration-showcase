@@ -1,7 +1,9 @@
+import { titleText } from "../utils/titleText";
+
 const Title = () => {
   return (
     <section>
-      <h1>Your daily dose of poetry</h1>
+      <h1>{titleText}</h1>
     </section>
   );
 };
