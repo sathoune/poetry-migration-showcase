@@ -26,7 +26,13 @@ const InitializePoetry = () => {
         </div>
         <div className="fragment current-visible">
           <h4>pyproject.toml</h4>
-          <pre style={{ backgroundColor: "#084078" }}>
+          <pre
+            style={{
+              backgroundColor: "#1a4a27",
+              width: "100%",
+              height: "100%",
+            }}
+          >
             <code>{text}</code>
           </pre>
         </div>

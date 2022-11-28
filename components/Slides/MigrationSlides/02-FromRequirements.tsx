@@ -46,7 +46,10 @@ const FromRequirements = () => {
 
         <div
           className="fragment current-visible"
-          style={{ backgroundColor: "#781008", width: "80%" }}
+          style={{
+            backgroundColor: "#781008",
+            width: "65%",
+          }}
         >
           <h4>27 packages</h4>
           <pre>
