@@ -20,7 +20,7 @@ const Presentation = () => {
         remote: true,
         path: "/api/socket",
       },
-      plugins: [RevealRemote],
+      plugins: [RevealRemote()],
     });
   }, []);
   return (
