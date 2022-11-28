@@ -1,4 +1,4 @@
-import Title from "./Slides/00-Title";
+import Title from "./Slides/00-Intro";
 import AboutMe from "./Slides/01-AboutMe";
 import Agenda from "./Slides/02-Agenda";
 import Background from "./Slides/03-Background";
