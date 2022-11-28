@@ -20,11 +20,15 @@ const AdjustPins = () => {
   return (
     <section>
       <h2>Adjust pinned dependencies</h2>
+
       <div className={"r-stack"}>
-        <pre className={"fragment fade-out"}>
+        <pre className={"fragment"}>
           <code>{pinnedDependencies}</code>
         </pre>
-        <pre className={"fragment current-visible"}>
+        <pre
+          className={"fragment current-visible"}
+          style={{ backgroundColor: "#002b36" }}
+        >
           <code>{unPinnedDependencies}</code>
         </pre>
       </div>

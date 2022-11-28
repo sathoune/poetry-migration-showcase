@@ -8,14 +8,17 @@ const PoetryRemove = () => {
             <code>poetry remove sniffio</code>
           </pre>
         </div>
-        <div className="fragment fade-out current-visible">
+        <div className="fragment">
           <h3>poetry.lock</h3>
           <img
             src={"/images/package-removed.png"}
             alt={"poetry.lock changes"}
           />
         </div>
-        <div className="fragment current-visible">
+        <div
+          className="fragment current-visible"
+          style={{ backgroundColor: "#002b36" }}
+        >
           <h3>pyproject.toml</h3>
           <img
             src={"/images/modified-pyproject.png"}
