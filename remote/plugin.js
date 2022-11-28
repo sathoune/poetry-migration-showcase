@@ -1,14 +1,15 @@
-(function (global, factory) {
-  typeof exports === "object" && typeof module !== "undefined"
-    ? (module.exports = factory())
-    : typeof define === "function" && define.amd
-    ? define(factory)
-    : ((global = global || self), (global.RevealRemote = factory()));
-})(this, function () {
+import io from "socket.io-client";
+
+const a = function () {
   "use strict";
 
   var Plugin = function Plugin() {
+    let connected = false;
     function init(reveal) {
+      if (connected) {
+        return;
+      }
+      connected = true;
       var config,
         socket,
         div,
@@ -329,4 +330,6 @@
   }
 
   return Plugin;
-});
+};
+
+export default a();
