@@ -5,7 +5,10 @@ const Docker = () => {
       <a href="https://github.com/sathoune/python-poetry-docker-template">
         Template starter project
       </a>
-      <div>Made with cookiecutter</div>
+      <div>
+        {"made with "}
+        <a href="https://github.com/cookiecutter/cookiecutter">cookiecutter</a>
+      </div>
     </section>
   );
 };
