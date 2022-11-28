@@ -14,10 +14,14 @@ const PresentationContents = ({ style }: { style?: CSSProperties }) => {
         Hosted at: <a href="">TBD</a>
       </div>
       <div>
-        <a href={""}>Presentation source code</a>
+        <a href={"https://github.com/sathoune/poetry-migration-showcase"}>
+          Presentation source code
+        </a>
       </div>
       <div>
-        <a href={""}>Migration source code</a>
+        <a href={"https://github.com/sathoune/poetry-migration-example"}>
+          Migration source code
+        </a>
       </div>
     </Flex>
   );
