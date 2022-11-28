@@ -1,20 +1,15 @@
 import PersonalLinks from "../Commons/PersonalLinks";
 import PresentationContents from "../Commons/PresentationContents";
+import Flex from "../utils/Flex";
 
 const AboutMe = () => {
   return (
     <section>
       <h2>About me</h2>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "space-around",
-        }}
-      >
+      <Flex>
         <PersonalLinks />
-        <PresentationContents />
-      </div>
+        <PresentationContents style={{ alignItems: "flex-end" }} />
+      </Flex>
     </section>
   );
 };

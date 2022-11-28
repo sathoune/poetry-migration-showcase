@@ -1,6 +1,13 @@
+import Flex from "../utils/Flex";
+
 const PersonalLinks = () => {
   return (
-    <div>
+    <Flex
+      style={{
+        flexDirection: "column",
+        alignItems: "flex-start",
+      }}
+    >
       <h4>Find me:</h4>
       <div>
         <a href="https://github.com/sathoune">@github</a>
@@ -11,7 +18,7 @@ const PersonalLinks = () => {
       <div>
         <a href="https://bargiel.dev">@bargiel.dev</a>
       </div>
-    </div>
+    </Flex>
   );
 };
 
