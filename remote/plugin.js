@@ -1,16 +1,14 @@
 import io from "socket.io-client";
 
 const a = function () {
-  "use strict";
-
-  var Plugin = function Plugin() {
+  const Plugin = function Plugin() {
     let connected = false;
     function init(reveal) {
       if (connected) {
         return;
       }
       connected = true;
-      var config,
+      let config,
         socket,
         div,
         image,
@@ -25,7 +23,7 @@ const a = function () {
         };
 
       function extend(a, b) {
-        for (var i in b) {
+        for (const i in b) {
           a[i] = b[i];
         }
 
@@ -114,13 +112,13 @@ const a = function () {
         console.info("Remote: Connected - sending welcome message");
 
         if (config.remoteMultiplexId === undefined) {
-          var data = {
+          const data = {
             type: "master",
             shareUrl: pluginConfig.shareUrl,
           };
 
           if (window.localStorage) {
-            var hashes = JSON.parse(
+            const hashes = JSON.parse(
                 window.localStorage.getItem("presentations") || "{}"
               ),
               hashUrl = pluginConfig.shareUrl.replace(/#.*/, "");
@@ -141,7 +139,7 @@ const a = function () {
       }
 
       function createPopup() {
-        var body = document.getElementsByTagName("body")[0],
+        const body = document.getElementsByTagName("body")[0],
           inner = document.createElement("div");
 
         link = document.createElement("a");
@@ -180,6 +178,7 @@ const a = function () {
       }
 
       function togglePopup(imageData, url) {
+        console.log(url);
         if (link.href === url && div.style.display !== "none") {
           div.style.display = "none";
         } else {
@@ -234,7 +233,7 @@ const a = function () {
         }
 
         if (window.localStorage) {
-          var hashes = JSON.parse(
+          const hashes = JSON.parse(
               window.localStorage.getItem("presentations") || "{}"
             ),
             hashUrl = pluginConfig.shareUrl.replace(/#.*/, "");
@@ -274,9 +273,9 @@ const a = function () {
       }
 
       function sendMultiplexState() {
-        var state = reveal.getState();
-        var zoomPlugin = reveal.getPlugin("remote-zoom");
-        var zoom = zoomPlugin ? zoomPlugin.getCurrentZoom() : null;
+        const state = reveal.getState();
+        const zoomPlugin = reveal.getPlugin("remote-zoom");
+        const zoom = zoomPlugin ? zoomPlugin.getCurrentZoom() : null;
 
         socket.emit("multiplex", { state: state, zoom: zoom });
       }
@@ -286,7 +285,7 @@ const a = function () {
       }
 
       function msgSync(data) {
-        var zoomPlugin = reveal.getPlugin("remote-zoom");
+        const zoomPlugin = reveal.getPlugin("remote-zoom");
 
         reveal.setState(data.state);
 
@@ -300,7 +299,7 @@ const a = function () {
       }
 
       function msgCommand(data) {
-        var cmd = data.command;
+        const cmd = data.command;
         if (listeners.hasOwnProperty(cmd)) {
           listeners[cmd]();
         } else {
@@ -332,4 +331,4 @@ const a = function () {
   return Plugin;
 };
 
-export default a();
+export default a;
