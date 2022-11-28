@@ -12,6 +12,7 @@ const PyprojectTOML = () => {
             Unless you use a plugin
           </a>
         </Lif>
+        <Lif>And many more...</Lif>
       </ul>
     </section>
   );
