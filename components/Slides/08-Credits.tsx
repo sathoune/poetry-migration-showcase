@@ -28,6 +28,11 @@ const Credits = () => {
           <div>
             <a href="https://nextjs.org/">Next.js</a>
           </div>
+          <div style={{ textAlign: "right" }}>
+            <a href="https://github.com/cologneintelligence/reveal.js-remote">
+              Remote plugin
+            </a>
+          </div>
         </Flex>
       </Flex>
     </section>

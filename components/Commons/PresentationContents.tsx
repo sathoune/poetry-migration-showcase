@@ -11,7 +11,7 @@ const PresentationContents = ({ style }: { style?: CSSProperties }) => {
     >
       <h4>Content available at:</h4>
       <div>
-        Hosted at: <a href="">TBD</a>
+        Hosted at: <a href="https://today.bargiel.dev">today.bargiel.dev</a>
       </div>
       <div>
         <a href={"https://github.com/sathoune/poetry-migration-showcase"}>
