@@ -12,7 +12,7 @@
 //   res.status(200).json({ name: 'John Doe' })
 // }
 
-import { Server } from "Socket.IO";
+import { Server } from "socket.io";
 import { initConnection } from "./socketHandlers";
 import { v4 } from "uuid";
 
